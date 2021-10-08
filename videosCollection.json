@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "615dc5292476889e0b8e25a3"
+  },
+  "title": "Testing",
+  "type": "Regular",
+  "genre": "Action",
+  "isChildren": false,
+  "isNewRelease": false,
+  "maxAge": "18",
+  "releaseYear": "1889",
+  "createdAt": {
+    "$date": "2021-10-06T15:47:53.114Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-06T15:47:53.114Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "615df051d607f5109bf6008f"
+  },
+  "title": "sdfsdfsfsfs",
+  "type": "Children's movie",
+  "genre": "Drama",
+  "isChildren": false,
+  "isNewRelease": false,
+  "maxAge": "67",
+  "releaseYear": "2021",
+  "createdAt": {
+    "$date": "2021-10-06T18:52:01.180Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-06T18:52:01.180Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "615df3ead607f5109bf60094"
+  },
+  "title": "bbbbbbb",
+  "type": "New Release",
+  "genre": "Drama",
+  "isChildren": false,
+  "isNewRelease": false,
+  "maxAge": "33",
+  "releaseYear": "2022",
+  "createdAt": {
+    "$date": "2021-10-06T19:07:22.464Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-06T19:07:22.464Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "615e018bb372203ee84ebb24"
+  },
+  "title": "ccccc",
+  "type": "Regular",
+  "genre": "Romance",
+  "isChildren": false,
+  "isNewRelease": false,
+  "maxAge": "12",
+  "releaseYear": "1556",
+  "createdAt": {
+    "$date": "2021-10-06T20:05:31.384Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-06T20:05:31.384Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "615e0280a57e1c8e6a8942ff"
+  },
+  "title": "xxxxxx",
+  "type": "Regular",
+  "genre": "Drama",
+  "isChildren": false,
+  "isNewRelease": false,
+  "maxAge": "33",
+  "releaseYear": "5678",
+  "createdAt": {
+    "$date": "2021-10-06T20:09:36.245Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-06T20:09:36.245Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "615e1ea187404a55b93e8a63"
+  },
+  "title": "nnnnnn",
+  "type": "Children's movie",
+  "genre": "Comedy",
+  "isChildren": false,
+  "isNewRelease": false,
+  "maxAge": "45",
+  "releaseYear": "1998",
+  "createdAt": {
+    "$date": "2021-10-06T22:09:37.047Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-06T22:09:37.047Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "615e28f51375fe2db1858b96"
+  },
+  "title": "fghfghfghfg",
+  "type": "Children's movie",
+  "genre": "Horror",
+  "isChildren": false,
+  "isNewRelease": false,
+  "maxAge": "15",
+  "releaseYear": "1996",
+  "createdAt": {
+    "$date": "2021-10-06T22:53:41.811Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-06T22:53:41.811Z"
+  },
+  "__v": 0
+}]

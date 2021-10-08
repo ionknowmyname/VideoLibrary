@@ -1,0 +1,67 @@
+<header class="jumbotron">
+    <h1 class="mt-4">Videos List from DB</h1>
+</header>
+
+<div class="container">
+    <div class="row">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Type</th>
+                    <th>Genre</th>
+                    <th>Rent</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% if (list.length > 0){ %> <% list.forEach(function(row){ %>
+                <tr>
+                    <td><%= row.title %></td>
+                    <td><%= row.type %></td>
+                    <td><%= row.genre %></td>
+                    <td>
+                        <a
+                            href="/allvideos/rent/<%= row._id %>"
+                            class="btn btn-secondary"
+                            ><i
+                                class="fa fa-filter fa-lg"
+                                aria-hidden="true"
+                            ></i
+                        ></a>
+                    </td>
+                </tr>
+                <% }) %> <% }else{ %>
+                <tr>
+                    <td colspan="3">No Record Found</td>
+                </tr>
+                <% } %>
+            </tbody>
+        </table>
+
+        <% if (pages > 0) { %>
+        <ul class="pagination text-center">
+            <% if (current == 1) { %>
+            <li class="disabled"><a>First</a></li>
+            <% } else { %>
+            <li><a href="/allvideos/1">First</a></li>
+            <% } %> <% var i = (Number(current) > 5 ? Number(current) - 4 : 1)
+            %> <% if (i !== 1) { %>
+            <li class="disabled"><a>...</a></li>
+            <% } %> <% for (; i <= (Number(current) + 4) && i <= pages; i++) {
+            %> <% if (i == current) { %>
+            <li class="active"><a><%= i %></a></li>
+            <% } else { %>
+            <li><a href="/allvideos/<%= i %>"><%= i %></a></li>
+            <% } %> <% if (i == Number(current) + 4 && i < pages) { %>
+            <li class="disabled"><a>...</a></li>
+            <% } %> <% } %> <% if (current == pages) { %>
+            <li class="disabled"><a>Last</a></li>
+            <% } else { %>
+            <li><a href="/allvideos/<%= pages %>">Last</a></li>
+            <% } %>
+        </ul>
+        <% } %>
+    </div>
+</div>
+
+<a href="/addVideo" class="btn btn-secondary">Add Video</a>
